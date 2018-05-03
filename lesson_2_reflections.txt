@@ -1,0 +1,13 @@
+Lesson 2:
+
+Reflect: Initialising a repository
+Q: What happens when you initialize a repository? Why do you need to do it?
+   It creates a git repository where changes in repository will be tracked. The repository needs to be initialised
+   to create all the meta files inside the directory, which does the work of tracking and keeping version control.
+
+Reflect: Staging area
+Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
+   The staging area is a part of the working directory to be considered for a commit. This gives developers additional
+   control on which part of the working directory is currently being worked on. Therefore, within a large
+   project, the developers can see easier which files are being worked on.
+   
