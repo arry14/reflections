@@ -11,3 +11,7 @@ Q: How is the staging area different from the working directory and the reposito
    control on which part of the working directory is currently being worked on. Therefore, within a large
    project, the developers can see easier which files are being worked on.
    
+Reflect: Commit size
+Q: How can you use the staging area to make sure you have one commit per logical change?
+   The staging area can be used to see what changes have been done to what files before they are being committed.
+   This means that I can see what changes are within one logical change, instead of committing them wholesale.
