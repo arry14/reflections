@@ -21,3 +21,14 @@ Q: What are some situations when branches would be helpful in keeping your histo
    When we want to add experimental features, which might be buggy or breaks the current project. Or when we want to
    add localisation features, or other features, where changing the main features is the easiest way to see what
    the changes will do.
+
+Reflect: Visualizing with Diagrams
+Q: How do the diagrams help you visualize the branch structure?
+   Diagrams can show the branches and how they relate to each other. The most important thing is to see the parents of
+   the branches to visualise where the HEAD is and what to work on.
+
+Reflect: Merging Two branches
+Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+   The result is to create a single branch which includes all of the changes committed since they diverged
+   from the original parent. They are represented in a way to show the parents, and also to show the changes applied
+   on each branch.
