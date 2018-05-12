@@ -32,3 +32,9 @@ Q: What is the result of merging two branches together? Why do we represent it i
    The result is to create a single branch which includes all of the changes committed since they diverged
    from the original parent. They are represented in a way to show the parents, and also to show the changes applied
    on each branch.
+
+Reflect: Automatic vs. Manual Merging
+Q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+   The pros are the ability of quickly merging two features into the same branch. The cons is that sometime there would
+   be conflicts, due to the similarities and uncertainties in the two branches. Doing merges manually are very
+   time consuming, but can be precise, and can capture the intents better.
